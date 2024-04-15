@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yamashita/Robot_ws/install/coordinate_msg/local/lib/python3.10/dist-packages",
+        "/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages",
+        "/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yamashita/Robot_ws/install/coordinate_msg/local/lib/python3.10/dist-packages",
+        "/home/yamashita/Robot_ws/install/bezier_root/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages",
+        "/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages",
+        "/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
