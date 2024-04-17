@@ -16,10 +16,11 @@ setup(
     maintainer='yamashita',
     maintainer_email='yamashitaaoi1230@icloud.com',
     description='2024 robocon',
-    license='BSD-2-Clause',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "yaslam = robot_2024.ya_slam:main",
         ],
     },
 )

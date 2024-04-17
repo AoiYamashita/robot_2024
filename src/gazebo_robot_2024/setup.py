@@ -14,6 +14,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share',package_name,'launch'),glob('launch/*.launch.py')),
         (os.path.join('share',package_name,'rviz'),glob('rviz/*')),
+        (os.path.join('share',package_name,'urdf'),glob('urdf/*')),
         (os.path.join('share',package_name,'worlds'),glob('worlds/*'))
     ],
     install_requires=['setuptools'],
@@ -25,6 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "controll = gazebo_robot_2024.controll:main",
         ],
     },
 )

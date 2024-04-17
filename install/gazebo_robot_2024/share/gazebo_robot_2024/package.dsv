@@ -1,0 +1,6 @@
+source;share/gazebo_robot_2024/hook/pythonpath.ps1
+source;share/gazebo_robot_2024/hook/pythonpath.dsv
+source;share/gazebo_robot_2024/hook/pythonpath.sh
+source;share/gazebo_robot_2024/hook/ament_prefix_path.ps1
+source;share/gazebo_robot_2024/hook/ament_prefix_path.dsv
+source;share/gazebo_robot_2024/hook/ament_prefix_path.sh

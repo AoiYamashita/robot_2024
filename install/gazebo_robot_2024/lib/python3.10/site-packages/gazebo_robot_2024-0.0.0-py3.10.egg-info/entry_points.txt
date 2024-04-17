@@ -1,0 +1,3 @@
+[console_scripts]
+controll = gazebo_robot_2024.controll:main
+
