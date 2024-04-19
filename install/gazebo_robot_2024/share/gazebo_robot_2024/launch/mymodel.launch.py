@@ -29,11 +29,11 @@ def generate_launch_description():
             executable = 'controll',
             output = 'screen'
         )
-    yaslam = Node(
-        package="robot_2024",
-        executable="yaslam",
-        output="screen"
-    )
+    ya_slam = Node(
+            package="robot_2024",
+            executable="yaslam",
+            output="screen"
+        )
     package_dir = get_package_share_directory("gazebo_robot_2024")
     rviz = os.path.join(package_dir, "rviz" , "lidar.rviz")
 
@@ -55,6 +55,7 @@ def generate_launch_description():
         
         # gazebo settings
         gazebo,
+        ya_slam,
 
         Node(
             package="rviz2",
@@ -71,5 +72,4 @@ def generate_launch_description():
             arguments=["-x" ,"-0.5","-y" ,"-1","-z" ,"1.0","-topic", "/robot_description", "-entity", "first_robot"],
             ),
         controll,
-        yaslam,
     ])

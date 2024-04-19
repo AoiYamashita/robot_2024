@@ -1,0 +1,21 @@
+[0.659s] Invoking command in '/home/yamashita/robot_2024/src/gazebo_robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data
+[0.836s] running egg_info
+[0.836s] writing ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/PKG-INFO
+[0.837s] writing dependency_links to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/dependency_links.txt
+[0.837s] writing entry points to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/entry_points.txt
+[0.837s] writing requirements to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/requires.txt
+[0.837s] writing top-level names to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/top_level.txt
+[0.838s] reading manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'
+[0.839s] writing manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'
+[0.839s] running build
+[0.839s] running build_py
+[0.839s] running install
+[0.840s] running install_lib
+[0.841s] running install_data
+[0.841s] running install_egg_info
+[0.842s] removing '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info' (and everything under it)
+[0.842s] Copying ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info
+[0.843s] running install_scripts
+[0.858s] Installing controll script to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/gazebo_robot_2024
+[0.858s] writing list of installed files to '/home/yamashita/robot_2024/build/gazebo_robot_2024/install.log'
+[0.882s] Invoked command in '/home/yamashita/robot_2024/src/gazebo_robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data
