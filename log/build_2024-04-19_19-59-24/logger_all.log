@@ -1,0 +1,181 @@
+[0.441s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.441s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8dfb0910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8dfb0430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8dfb0430>>)
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yamashita/robot_2024'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.355s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extension 'ignore'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extension 'ignore_ament_install'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extensions ['colcon_pkg']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extension 'colcon_pkg'
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extensions ['colcon_meta']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extensions ['ros']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_robot_2024) by extension 'ros'
+[1.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_robot_2024' with type 'ros.ament_python' and name 'gazebo_robot_2024'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extensions ['ignore', 'ignore_ament_install']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extension 'ignore'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extension 'ignore_ament_install'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extensions ['colcon_pkg']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extension 'colcon_pkg'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extensions ['colcon_meta']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extension 'colcon_meta'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extensions ['ros']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_2024) by extension 'ros'
+[1.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_2024' with type 'ros.ament_python' and name 'robot_2024'
+[1.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.497s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yamashita/robot_2024/install
+[1.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yamashita/LegControll/install
+[1.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yamashita/car_ws/install
+[1.511s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[1.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_args' from command line to 'None'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_target' from command line to 'None'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_clean_first' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'cmake_force_configure' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'ament_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'gazebo_robot_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.699s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_robot_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/robot_2024/build/gazebo_robot_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/robot_2024/install/gazebo_robot_2024', 'merge_install': False, 'path': '/home/yamashita/robot_2024/src/gazebo_robot_2024', 'symlink_install': False, 'test_result_base': None}
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_args' from command line to 'None'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_target' from command line to 'None'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_clean_first' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'cmake_force_configure' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'ament_cmake_args' from command line to 'None'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'robot_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.702s] DEBUG:colcon.colcon_core.verb:Building package 'robot_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/robot_2024/build/robot_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/robot_2024/install/robot_2024', 'merge_install': False, 'path': '/home/yamashita/robot_2024/src/robot_2024', 'symlink_install': False, 'test_result_base': None}
+[1.702s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.706s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yamashita/robot_2024/src/gazebo_robot_2024' with build type 'ament_python'
+[1.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_robot_2024', 'ament_prefix_path')
+[1.716s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/ament_prefix_path.ps1'
+[1.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/ament_prefix_path.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/ament_prefix_path.sh'
+[1.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.750s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yamashita/robot_2024/src/robot_2024' with build type 'ament_python'
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_2024', 'ament_prefix_path')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/ament_prefix_path.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/ament_prefix_path.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/ament_prefix_path.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yamashita/robot_2024/src/gazebo_robot_2024'
+[3.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.319s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yamashita/robot_2024/src/robot_2024'
+[4.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/robot_2024/src/robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data
+[6.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/robot_2024/src/gazebo_robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data
+[8.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/robot_2024/src/gazebo_robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data
+[8.014s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024' for CMake module files
+[8.016s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024' for CMake config files
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib'
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024/bin'
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/pkgconfig/gazebo_robot_2024.pc'
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages'
+[8.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_robot_2024', 'pythonpath')
+[8.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/pythonpath.ps1'
+[8.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/pythonpath.dsv'
+[8.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/hook/pythonpath.sh'
+[8.030s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/gazebo_robot_2024/bin'
+[8.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_robot_2024)
+[8.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/package.ps1'
+[8.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/package.dsv'
+[8.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/package.sh'
+[8.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/package.bash'
+[8.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/package.zsh'
+[8.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/robot_2024/install/gazebo_robot_2024/share/colcon-core/packages/gazebo_robot_2024)
+[8.049s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024' for CMake module files
+[8.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/robot_2024/src/robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data
+[8.054s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024' for CMake config files
+[8.057s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024/lib'
+[8.057s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024/bin'
+[8.058s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024/lib/pkgconfig/robot_2024.pc'
+[8.059s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages'
+[8.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_2024', 'pythonpath')
+[8.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/pythonpath.ps1'
+[8.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/pythonpath.dsv'
+[8.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/hook/pythonpath.sh'
+[8.066s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/robot_2024/install/robot_2024/bin'
+[8.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_2024)
+[8.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/package.ps1'
+[8.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/package.dsv'
+[8.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/package.sh'
+[8.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/package.bash'
+[8.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/robot_2024/install/robot_2024/share/robot_2024/package.zsh'
+[8.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/robot_2024/install/robot_2024/share/colcon-core/packages/robot_2024)
+[8.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.081s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.082s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.082s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.103s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.106s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[8.106s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/robot_2024/install/local_setup.ps1'
+[8.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/robot_2024/install/_local_setup_util_ps1.py'
+[8.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/robot_2024/install/setup.ps1'
+[8.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/robot_2024/install/local_setup.sh'
+[8.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/robot_2024/install/_local_setup_util_sh.py'
+[8.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/robot_2024/install/setup.sh'
+[8.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/robot_2024/install/local_setup.bash'
+[8.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/robot_2024/install/setup.bash'
+[8.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/robot_2024/install/local_setup.zsh'
+[8.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/robot_2024/install/setup.zsh'

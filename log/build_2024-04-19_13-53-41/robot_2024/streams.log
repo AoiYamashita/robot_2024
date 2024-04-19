@@ -1,0 +1,33 @@
+[5.291s] Invoking command in '/home/yamashita/robot_2024/src/robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data
+[6.596s] running egg_info
+[6.599s] writing ../../build/robot_2024/robot_2024.egg-info/PKG-INFO
+[6.600s] writing dependency_links to ../../build/robot_2024/robot_2024.egg-info/dependency_links.txt
+[6.601s] writing entry points to ../../build/robot_2024/robot_2024.egg-info/entry_points.txt
+[6.602s] writing requirements to ../../build/robot_2024/robot_2024.egg-info/requires.txt
+[6.603s] writing top-level names to ../../build/robot_2024/robot_2024.egg-info/top_level.txt
+[6.612s] reading manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+[6.616s] writing manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+[6.618s] running build
+[6.618s] running build_py
+[6.619s] copying robot_2024/ya_slam.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+[6.620s] copying robot_2024/__init__.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+[6.620s] copying robot_2024/serial.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+[6.621s] running install
+[6.622s] running install_lib
+[6.625s] copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/ya_slam.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+[6.626s] copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/__init__.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+[6.628s] copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/serial.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+[6.630s] byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/ya_slam.py to ya_slam.cpython-310.pyc
+[6.637s] byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/__init__.py to __init__.cpython-310.pyc
+[6.639s] byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/serial.py to serial.cpython-310.pyc
+[6.640s] running install_data
+[6.641s] copying resource/robot_2024 -> /home/yamashita/robot_2024/install/robot_2024/share/ament_index/resource_index/packages
+[6.641s] copying package.xml -> /home/yamashita/robot_2024/install/robot_2024/share/robot_2024
+[6.642s] running install_egg_info
+[6.650s] removing '/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info' (and everything under it)
+[6.652s] Copying ../../build/robot_2024/robot_2024.egg-info to /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info
+[6.658s] running install_scripts
+[6.744s] Installing serial script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+[6.746s] Installing yaslam script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+[6.749s] writing list of installed files to '/home/yamashita/robot_2024/build/robot_2024/install.log'
+[7.061s] Invoked command in '/home/yamashita/robot_2024/src/robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data

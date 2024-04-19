@@ -1,0 +1,34 @@
+[5.323s] Invoking command in '/home/yamashita/robot_2024/src/gazebo_robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data
+[6.647s] running egg_info
+[6.650s] writing ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/PKG-INFO
+[6.651s] writing dependency_links to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/dependency_links.txt
+[6.653s] writing entry points to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/entry_points.txt
+[6.654s] writing requirements to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/requires.txt
+[6.654s] writing top-level names to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/top_level.txt
+[6.664s] reading manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'
+[6.668s] writing manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'
+[6.669s] running build
+[6.670s] running build_py
+[6.670s] copying gazebo_robot_2024/__init__.py -> /home/yamashita/robot_2024/build/gazebo_robot_2024/build/lib/gazebo_robot_2024
+[6.671s] copying gazebo_robot_2024/controll.py -> /home/yamashita/robot_2024/build/gazebo_robot_2024/build/lib/gazebo_robot_2024
+[6.673s] running install
+[6.674s] running install_lib
+[6.677s] copying /home/yamashita/robot_2024/build/gazebo_robot_2024/build/lib/gazebo_robot_2024/__init__.py -> /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024
+[6.678s] copying /home/yamashita/robot_2024/build/gazebo_robot_2024/build/lib/gazebo_robot_2024/controll.py -> /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024
+[6.681s] byte-compiling /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024/__init__.py to __init__.cpython-310.pyc
+[6.683s] byte-compiling /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024/controll.py to controll.cpython-310.pyc
+[6.686s] running install_data
+[6.687s] copying resource/gazebo_robot_2024 -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/ament_index/resource_index/packages
+[6.687s] copying package.xml -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024
+[6.688s] copying launch/mymodel.launch.py -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/launch
+[6.689s] copying launch/Mymodel.launch.py -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/launch
+[6.690s] copying rviz/lidar.rviz -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/rviz
+[6.691s] copying urdf/first_robot.urdf -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/urdf
+[6.693s] copying worlds/mymodel.world -> /home/yamashita/robot_2024/install/gazebo_robot_2024/share/gazebo_robot_2024/worlds
+[6.694s] running install_egg_info
+[6.701s] removing '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info' (and everything under it)
+[6.703s] Copying ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info
+[6.710s] running install_scripts
+[6.795s] Installing controll script to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/gazebo_robot_2024
+[6.797s] writing list of installed files to '/home/yamashita/robot_2024/build/gazebo_robot_2024/install.log'
+[6.985s] Invoked command in '/home/yamashita/robot_2024/src/gazebo_robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_robot_2024 build --build-base /home/yamashita/robot_2024/build/gazebo_robot_2024/build install --record /home/yamashita/robot_2024/build/gazebo_robot_2024/install.log --single-version-externally-managed install_data

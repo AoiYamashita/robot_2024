@@ -85,7 +85,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_footprint
+    Fixed Frame: lidar_link
     Frame Rate: 30
   Name: root
   Tools:
@@ -128,25 +128,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 7.849526882171631
+      Distance: 3.597243309020996
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.7762911915779114
-        Y: 0.326413094997406
-        Z: -0.7974108457565308
+        X: 0
+        Y: 0
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.84539794921875
+      Pitch: 0.7453982830047607
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8453980088233948
+      Yaw: 0.9053982496261597
     Saved: ~
 Window Geometry:
   Displays:
@@ -164,5 +164,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 207
-  Y: 209
+  X: -4
+  Y: -4
