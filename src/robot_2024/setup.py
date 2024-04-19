@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "yaslam = robot_2024.ya_slam:main",
+            "serial = robot_2024.serial:main",
         ],
     },
 )
