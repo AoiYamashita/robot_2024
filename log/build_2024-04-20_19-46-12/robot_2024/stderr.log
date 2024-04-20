@@ -1,0 +1,5 @@
+  File "/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/ya_slam.py", line 22
+    def ()
+        ^
+SyntaxError: invalid syntax
+

@@ -1,5 +1,5 @@
 [console_scripts]
 serial = robot_2024.serial:main
 webControll = robot_2024.webControll:main
-yaslam = robot_2024.ya_slam:main
+yaslam = robot_2024.yaSlam:main
 

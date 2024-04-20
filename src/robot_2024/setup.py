@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "yaslam = robot_2024.ya_slam:main",
+            "yaslam = robot_2024.yaSlam:main",
             "serial = robot_2024.serial:main",
             "webControll = robot_2024.webControll:main",
         ],

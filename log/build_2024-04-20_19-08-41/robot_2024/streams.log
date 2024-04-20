@@ -1,0 +1,26 @@
+[0.731s] Invoking command in '/home/yamashita/robot_2024/src/robot_2024': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data
+[0.922s] running egg_info
+[0.923s] writing ../../build/robot_2024/robot_2024.egg-info/PKG-INFO
+[0.923s] writing dependency_links to ../../build/robot_2024/robot_2024.egg-info/dependency_links.txt
+[0.924s] writing entry points to ../../build/robot_2024/robot_2024.egg-info/entry_points.txt
+[0.924s] writing requirements to ../../build/robot_2024/robot_2024.egg-info/requires.txt
+[0.924s] writing top-level names to ../../build/robot_2024/robot_2024.egg-info/top_level.txt
+[0.925s] reading manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.926s] copying robot_2024/ya_slam.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+[0.926s] running install
+[0.926s] running install_lib
+[0.927s] copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/ya_slam.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+[0.927s] byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/ya_slam.py to ya_slam.cpython-310.pyc
+[0.929s] running install_data
+[0.929s] running install_egg_info
+[0.930s] removing '/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info' (and everything under it)
+[0.932s] Copying ../../build/robot_2024/robot_2024.egg-info to /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.949s] Installing serial script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+[0.949s] Installing webControll script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+[0.949s] Installing yaslam script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+[0.949s] writing list of installed files to '/home/yamashita/robot_2024/build/robot_2024/install.log'
+[0.969s] Invoked command in '/home/yamashita/robot_2024/src/robot_2024' returned '0': PYTHONPATH=/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_2024 build --build-base /home/yamashita/robot_2024/build/robot_2024/build install --record /home/yamashita/robot_2024/build/robot_2024/install.log --single-version-externally-managed install_data
