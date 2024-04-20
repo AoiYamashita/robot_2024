@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/robot_2024/robot_2024.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_2024/robot_2024.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_2024/robot_2024.egg-info/entry_points.txt
+writing requirements to ../../build/robot_2024/robot_2024.egg-info/requires.txt
+writing top-level names to ../../build/robot_2024/robot_2024.egg-info/top_level.txt
+reading manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_2024/webControll.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+copying robot_2024/serial.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024
+running install
+running install_lib
+copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/webControll.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/serial.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024
+byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/webControll.py to webControll.cpython-310.pyc
+byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/serial.py to serial.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_2024/robot_2024.egg-info to /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info
+running install_scripts
+Installing serial script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+Installing webControll script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+Installing yaslam script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024
+writing list of installed files to '/home/yamashita/robot_2024/build/robot_2024/install.log'

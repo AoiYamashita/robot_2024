@@ -17,7 +17,7 @@ class controller(Node):
         arg = data.angular.z
         deg = np.arctan2(speedy,speedx)
         msg = String()
-        msg.data = 'speed:{}:deg:{}'.format(np.sqrt(speedx**2+speedy**2),np.degrees(deg))
+        msg.data = 'speed:{}:deg:{}'.format(int(np.sqrt(speedx**2+speedy**2)),int(np.degrees(deg)))
         self.pub0.publish(msg)
         self.pub1.publish(msg)
         self.pub2.publish(msg)

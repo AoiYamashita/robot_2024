@@ -20,4 +20,4 @@ def generate_launch_description():
             parameters=[{'port': 9092}],
             output = 'screen',
             )
-    return launch.LaunchDescription([web,webcontroll])#,serial])
+    return launch.LaunchDescription([web,webcontroll,serial])
