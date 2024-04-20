@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.001545] (gazebo_robot_2024) JobQueued: {'identifier': 'gazebo_robot_2024', 'dependencies': OrderedDict()}
+[0.002237] (robot_2024) JobQueued: {'identifier': 'robot_2024', 'dependencies': OrderedDict()}
+[0.002332] (gazebo_robot_2024) JobStarted: {'identifier': 'gazebo_robot_2024'}
+[0.044717] (robot_2024) JobStarted: {'identifier': 'robot_2024'}
+[0.099087] (-) TimerEvent: {}
+[0.199881] (-) TimerEvent: {}
+[0.300563] (-) TimerEvent: {}
+[0.401199] (-) TimerEvent: {}
+[0.501933] (-) TimerEvent: {}
+[0.602530] (-) TimerEvent: {}
+[0.703137] (-) TimerEvent: {}
+[0.803757] (-) TimerEvent: {}
+[0.904351] (-) TimerEvent: {}
+[1.004950] (-) TimerEvent: {}
+[1.105590] (-) TimerEvent: {}
+[1.206195] (-) TimerEvent: {}
+[1.306928] (-) TimerEvent: {}
+[1.408038] (-) TimerEvent: {}
+[1.508752] (-) TimerEvent: {}
+[1.609450] (-) TimerEvent: {}
+[1.710122] (-) TimerEvent: {}
+[1.810729] (-) TimerEvent: {}
+[1.911335] (-) TimerEvent: {}
+[2.011949] (-) TimerEvent: {}
+[2.112542] (-) TimerEvent: {}
+[2.213199] (-) TimerEvent: {}
+[2.313852] (-) TimerEvent: {}
+[2.414443] (-) TimerEvent: {}
+[2.515055] (-) TimerEvent: {}
+[2.615903] (-) TimerEvent: {}
+[2.716997] (-) TimerEvent: {}
+[2.817814] (-) TimerEvent: {}
+[2.918576] (-) TimerEvent: {}
+[3.019438] (-) TimerEvent: {}
+[3.120457] (-) TimerEvent: {}
+[3.221308] (-) TimerEvent: {}
+[3.322006] (-) TimerEvent: {}
+[3.422694] (-) TimerEvent: {}
+[3.523326] (-) TimerEvent: {}
+[3.623980] (-) TimerEvent: {}
+[3.724647] (-) TimerEvent: {}
+[3.825370] (-) TimerEvent: {}
+[3.926078] (-) TimerEvent: {}
+[4.026848] (-) TimerEvent: {}
+[4.127709] (-) TimerEvent: {}
+[4.228329] (-) TimerEvent: {}
+[4.328973] (-) TimerEvent: {}
+[4.429717] (-) TimerEvent: {}
+[4.530937] (-) TimerEvent: {}
+[4.631333] (robot_2024) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_2024', 'build', '--build-base', '/home/yamashita/robot_2024/build/robot_2024/build', 'install', '--record', '/home/yamashita/robot_2024/build/robot_2024/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yamashita/robot_2024/src/robot_2024', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yamashita', 'SSH_CLIENT': '172.20.10.3 60284 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yamashita/LegControll/install/urg_node2/lib:/home/yamashita/car_ws/install/coordinate_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yamashita', 'OLDPWD': '/home/yamashita/robot_2024/src/robot_2024', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/yamashita/robot_2024/install:/home/yamashita/LegControll/install:/home/yamashita/car_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yamashita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yamashita/robot_2024/install/robot_2024:/home/yamashita/robot_2024/install/gazebo_robot_2024:/home/yamashita/robot_2024/install/gazebo_2024:/home/yamashita/LegControll/install/urg_node2:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/sample_c2:/home/yamashita/LegControll/install/sample_c:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/car_ws/install/mypkg:/home/yamashita/car_ws/install/coordinate_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yamashita/robot_2024/build/robot_2024', 'SSH_CONNECTION': '172.20.10.3 60284 172.20.10.7 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yamashita/robot_2024/build/robot_2024/prefix_override:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages:/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages:/home/yamashita/car_ws/install/mypkg/lib/python3.10/site-packages:/home/yamashita/car_ws/install/coordinate_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yamashita/robot_2024/install/gazebo_2024:/home/yamashita/LegControll/install/urg_node2:/home/yamashita/LegControll/install/sample_c2:/home/yamashita/LegControll/install/sample_c:/home/yamashita/car_ws/install/coordinate_msg'}, 'shell': False}
+[4.647598] (-) TimerEvent: {}
+[4.651050] (gazebo_robot_2024) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gazebo_robot_2024', 'build', '--build-base', '/home/yamashita/robot_2024/build/gazebo_robot_2024/build', 'install', '--record', '/home/yamashita/robot_2024/build/gazebo_robot_2024/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yamashita/robot_2024/src/gazebo_robot_2024', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yamashita', 'SSH_CLIENT': '172.20.10.3 60284 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yamashita/LegControll/install/urg_node2/lib:/home/yamashita/car_ws/install/coordinate_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yamashita', 'OLDPWD': '/home/yamashita/robot_2024/src/robot_2024', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/yamashita/robot_2024/install:/home/yamashita/LegControll/install:/home/yamashita/car_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yamashita', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yamashita/robot_2024/install/robot_2024:/home/yamashita/robot_2024/install/gazebo_robot_2024:/home/yamashita/robot_2024/install/gazebo_2024:/home/yamashita/LegControll/install/urg_node2:/home/yamashita/LegControll/install/test_controll:/home/yamashita/LegControll/install/sample_c2:/home/yamashita/LegControll/install/sample_c:/home/yamashita/LegControll/install/monitor_node:/home/yamashita/LegControll/install/monitor:/home/yamashita/car_ws/install/mypkg:/home/yamashita/car_ws/install/coordinate_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/yamashita/robot_2024/build/gazebo_robot_2024', 'SSH_CONNECTION': '172.20.10.3 60284 172.20.10.7 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yamashita/robot_2024/build/gazebo_robot_2024/prefix_override:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages:/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages:/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages:/home/yamashita/car_ws/install/mypkg/lib/python3.10/site-packages:/home/yamashita/car_ws/install/coordinate_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yamashita/robot_2024/install/gazebo_2024:/home/yamashita/LegControll/install/urg_node2:/home/yamashita/LegControll/install/sample_c2:/home/yamashita/LegControll/install/sample_c:/home/yamashita/car_ws/install/coordinate_msg'}, 'shell': False}
+[4.747777] (-) TimerEvent: {}
+[4.848523] (-) TimerEvent: {}
+[4.949251] (-) TimerEvent: {}
+[5.050182] (-) TimerEvent: {}
+[5.150907] (-) TimerEvent: {}
+[5.251650] (-) TimerEvent: {}
+[5.352443] (-) TimerEvent: {}
+[5.453205] (-) TimerEvent: {}
+[5.553943] (-) TimerEvent: {}
+[5.654666] (-) TimerEvent: {}
+[5.755443] (-) TimerEvent: {}
+[5.856311] (-) TimerEvent: {}
+[5.957203] (-) TimerEvent: {}
+[5.966769] (robot_2024) StdoutLine: {'line': b'running egg_info\n'}
+[5.969812] (robot_2024) StdoutLine: {'line': b'writing ../../build/robot_2024/robot_2024.egg-info/PKG-INFO\n'}
+[5.970943] (robot_2024) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_2024/robot_2024.egg-info/dependency_links.txt\n'}
+[5.971924] (robot_2024) StdoutLine: {'line': b'writing entry points to ../../build/robot_2024/robot_2024.egg-info/entry_points.txt\n'}
+[5.972833] (robot_2024) StdoutLine: {'line': b'writing requirements to ../../build/robot_2024/robot_2024.egg-info/requires.txt\n'}
+[5.973648] (robot_2024) StdoutLine: {'line': b'writing top-level names to ../../build/robot_2024/robot_2024.egg-info/top_level.txt\n'}
+[5.983279] (robot_2024) StdoutLine: {'line': b"reading manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'\n"}
+[5.987392] (robot_2024) StdoutLine: {'line': b"writing manifest file '../../build/robot_2024/robot_2024.egg-info/SOURCES.txt'\n"}
+[5.988136] (robot_2024) StdoutLine: {'line': b'running build\n'}
+[5.988681] (robot_2024) StdoutLine: {'line': b'running build_py\n'}
+[5.989588] (robot_2024) StdoutLine: {'line': b'copying robot_2024/webControll.py -> /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024\n'}
+[5.990223] (gazebo_robot_2024) StdoutLine: {'line': b'running egg_info\n'}
+[5.991427] (robot_2024) StdoutLine: {'line': b'running install\n'}
+[5.992826] (robot_2024) StdoutLine: {'line': b'running install_lib\n'}
+[5.993560] (gazebo_robot_2024) StdoutLine: {'line': b'writing ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/PKG-INFO\n'}
+[5.994588] (gazebo_robot_2024) StdoutLine: {'line': b'writing dependency_links to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/dependency_links.txt\n'}
+[5.995691] (gazebo_robot_2024) StdoutLine: {'line': b'writing entry points to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/entry_points.txt\n'}
+[5.996550] (gazebo_robot_2024) StdoutLine: {'line': b'writing requirements to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/requires.txt\n'}
+[5.997302] (robot_2024) StdoutLine: {'line': b'copying /home/yamashita/robot_2024/build/robot_2024/build/lib/robot_2024/webControll.py -> /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024\n'}
+[5.997935] (gazebo_robot_2024) StdoutLine: {'line': b'writing top-level names to ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/top_level.txt\n'}
+[6.000337] (robot_2024) StdoutLine: {'line': b'byte-compiling /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/webControll.py to webControll.cpython-310.pyc\n'}
+[6.003084] (robot_2024) StdoutLine: {'line': b'running install_data\n'}
+[6.003853] (robot_2024) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.006200] (gazebo_robot_2024) StdoutLine: {'line': b"reading manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'\n"}
+[6.010865] (gazebo_robot_2024) StdoutLine: {'line': b"writing manifest file '../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info/SOURCES.txt'\n"}
+[6.011706] (robot_2024) StdoutLine: {'line': b"removing '/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.012126] (gazebo_robot_2024) StdoutLine: {'line': b'running build\n'}
+[6.012555] (gazebo_robot_2024) StdoutLine: {'line': b'running build_py\n'}
+[6.013128] (robot_2024) StdoutLine: {'line': b'Copying ../../build/robot_2024/robot_2024.egg-info to /home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024-0.0.0-py3.10.egg-info\n'}
+[6.013889] (gazebo_robot_2024) StdoutLine: {'line': b'running install\n'}
+[6.014757] (gazebo_robot_2024) StdoutLine: {'line': b'running install_lib\n'}
+[6.019389] (robot_2024) StdoutLine: {'line': b'running install_scripts\n'}
+[6.020523] (gazebo_robot_2024) StdoutLine: {'line': b'running install_data\n'}
+[6.022356] (gazebo_robot_2024) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.030162] (gazebo_robot_2024) StdoutLine: {'line': b"removing '/home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.032007] (gazebo_robot_2024) StdoutLine: {'line': b'Copying ../../build/gazebo_robot_2024/gazebo_robot_2024.egg-info to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/python3.10/site-packages/gazebo_robot_2024-0.0.0-py3.10.egg-info\n'}
+[6.038687] (gazebo_robot_2024) StdoutLine: {'line': b'running install_scripts\n'}
+[6.057369] (-) TimerEvent: {}
+[6.105046] (robot_2024) StdoutLine: {'line': b'Installing serial script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024\n'}
+[6.106053] (robot_2024) StdoutLine: {'line': b'Installing webControll script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024\n'}
+[6.107022] (robot_2024) StdoutLine: {'line': b'Installing yaslam script to /home/yamashita/robot_2024/install/robot_2024/lib/robot_2024\n'}
+[6.109008] (robot_2024) StdoutLine: {'line': b"writing list of installed files to '/home/yamashita/robot_2024/build/robot_2024/install.log'\n"}
+[6.135904] (gazebo_robot_2024) StdoutLine: {'line': b'Installing controll script to /home/yamashita/robot_2024/install/gazebo_robot_2024/lib/gazebo_robot_2024\n'}
+[6.138995] (gazebo_robot_2024) StdoutLine: {'line': b"writing list of installed files to '/home/yamashita/robot_2024/build/gazebo_robot_2024/install.log'\n"}
+[6.157769] (-) TimerEvent: {}
+[6.260645] (-) TimerEvent: {}
+[6.294894] (robot_2024) CommandEnded: {'returncode': 0}
+[6.346902] (robot_2024) JobEnded: {'identifier': 'robot_2024', 'rc': 0}
+[6.351771] (gazebo_robot_2024) CommandEnded: {'returncode': 0}
+[6.361067] (-) TimerEvent: {}
+[6.380128] (gazebo_robot_2024) JobEnded: {'identifier': 'gazebo_robot_2024', 'rc': 0}
+[6.382955] (-) EventReactorShutdown: {}
