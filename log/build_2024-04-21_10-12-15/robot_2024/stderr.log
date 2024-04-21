@@ -1,0 +1,5 @@
+  File "/home/yamashita/robot_2024/install/robot_2024/lib/python3.10/site-packages/robot_2024/webControll.py", line 23
+    msg.data = 'speed:{}:deg:{}'.format(int(arg),int(45)))
+                                                         ^
+SyntaxError: unmatched ')'
+
