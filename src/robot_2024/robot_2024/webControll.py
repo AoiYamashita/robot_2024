@@ -20,15 +20,17 @@ class controller(Node):
         speedy = data.linear.y
         arg = data.angular.z
         if arg != 0:
+            #arg = 0
             msg = String()
-            msg.data = 'speed:{}:deg:{}'.format(int(arg),int(270))
+            msg.data = 'speed:{}:deg:{}'.format(int(arg),int(135))
             self.pub0.publish(msg)
             msg = String()
             msg.data = 'speed:{}:deg:{}'.format(int(arg),int(45))
             self.pub1.publish(msg)
             msg = String()
-            msg.data = 'speed:{}:deg:{}'.format(int(arg),int(135))
+            msg.data = 'speed:{}:deg:{}'.format(int(arg),int(270))
             self.pub2.publish(msg)
+            return
         deg = np.arctan2(speedy,speedx)
         msg = String()
         msg.data = 'speed:{}:deg:{}'.format(int(np.sqrt(speedx**2+speedy**2)),int(np.degrees(deg)))
