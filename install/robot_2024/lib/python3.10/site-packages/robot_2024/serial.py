@@ -61,7 +61,12 @@ class serial_indep(Node):
         self.get_logger().info("send2: %s" % a)
     def AirCb(self,data):
         a = data.data
-        self.serial2.write(a.encode('utf-8'))
+        if self.ids[2] == "Serial_data0":
+            self.serial0.write(a.encode('utf-8'))
+        if self.ids[2] == "Serial_data1":
+            self.serial1.write(a.encode('utf-8'))
+        if self.ids[2] == "Serial_data2":
+            self.serial2.write(a.encode('utf-8'))
         self.get_logger().info("send2: %s" % a)
     def read(self):
         data = self.serial0.readline()
