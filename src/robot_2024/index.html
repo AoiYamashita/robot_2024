@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- <script src="https://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script> -->
+<!-- <script type="text/javascript" src="roslib.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/roslibjs/0.20.0/roslib.min.js"></script>
+</head>
+
+<body>
+  <p><img id="image_sub"/></p>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <hr/>
+
+  <p>Connection: <span id="status" style="font-weight: bold;">N/A</span></p>
+
+  <script>
+    // Create ros object to communicate over your Rosbridge connection
+    const ros = new ROSLIB.Ros({
+      url: 'ws://'+location.hostname+':9092',//'ws://192.168.0.19:9090',
+      options: {
+        ros_domain_id: '89' // ROS_DOMAIN_IDを設定する
+      }
+    });
+
+    // When the Rosbridge server connects, fill the span with id "status" with "successful"
+    ros.on("connection", () => {
+      document.getElementById("status").innerHTML = "successful";
+      console.log('Connected to ROSBridge WebSocket server.');
+    });
+
+    // When the Rosbridge server experiences an error, fill the "status" span with the returned error
+    ros.on('error', function(error) {
+      console.log('Error connecting to ROSBridge WebSocket server: ', error);
+    });
+
+    // When the Rosbridge server shuts down, fill the "status" span with "closed"
+    ros.on('close', function() {
+      console.log('Connection to ROSBridge WebSocket server closed.');
+    });
+    
+    var controll = new ROSLIB.Topic({
+      ros : ros,
+      name : 'controll',
+      messageType : 'geometry_msgs/msg/Twist'
+    });
+
+    var air = new ROSLIB.Topic({
+      ros : ros,
+      name : 'AirControll',
+      messageType : 'std_msgs/msg/UInt8'
+    });
+
+    vec = [0,0]
+    arg = 0
+
+    twist = new ROSLIB.Message({
+        linear : {
+            x : vec[0],
+            y : vec[1],
+            z : 0
+        },
+        angular : {
+            x : 0,
+            y : 0,
+            z : arg
+        }
+    });
+
+    
+    
+    document.addEventListener('keydown', function (e) {
+      /*switch(e.code){
+        case 'ArrowRight':
+            game.mx = 1;
+          break;
+        case 'ArrowLeft':
+            game.mx = -1;
+          break;
+        case 'ArrowUp':
+            game.mrot = -1;
+          break;
+        case 'ArrowDown':
+          game.drop = 2;
+          break;
+        }*/
+      console.log(event.keyCode)
+      switch(event.keyCode){
+        case 87://w
+          vec[0] = 10000
+          break;
+        case 65://a
+          vec[1] = 10000
+          break;
+        case 83://s
+          vec[0] = -10000
+          break;
+        case 68://d
+          vec[1] = -10000
+          break;
+        case 69://e
+          arg = 1000;
+          break;
+        case 81://q
+          arg = -100;
+          break;
+      }
+      twist = new ROSLIB.Message({
+        linear : {
+            x : vec[0],
+            y : vec[1],
+            z : 0
+        },
+        angular : {
+            x : 0,
+            y : 0,
+            z : arg
+        }
+      });
+      if(49 <= event.keyCode && event.keyCode < 58){
+      	airId = new ROSLIB.Message({
+         data : event.keyCode-49
+	})
+	air.publish(airId)
+      }
+
+    })
+
+    document.addEventListener('keyup', function (e) {
+      console.log("reset")
+      vec = [0,0]
+      arg = 0
+      twist = new ROSLIB.Message({
+        linear : {
+            x : vec[0],
+            y : vec[1],
+            z : 0
+        },
+        angular : {
+            x : 0,
+            y : 0,
+            z : arg
+        }
+      });
+
+    })
+
+    let k = setInterval(update,1);
+    let i = 0;
+    function update(){
+      controll.publish(twist);
+    }
+</script>
+
+</body>
+</html>
